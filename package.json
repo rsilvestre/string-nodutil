@@ -1,0 +1,23 @@
+{
+  "author": "Michael Silvestre",
+  "name": "string-nodutil",
+  "description": "Node utilities to manage common operations over: string, numeric",
+  "keywords" : ["utilities","string","number"],
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/rsilvestre/string-nodutil/",
+    "type" : "git"
+  },
+  "main": "./index.js",
+  "bin": {},
+  "scripts": {
+      "test": "sh ./test/tests.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": "*"
+  }
+}
