@@ -3,7 +3,7 @@
   "name": "string-nodutil",
   "description": "Node utilities to manage common operations over: string, numeric",
   "keywords" : ["utilities","string","number"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/rsilvestre/string-nodutil/",
     "type" : "git"
@@ -14,7 +14,9 @@
       "test": "sh ./test/tests.sh"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+      "nodeunit" : "^0.9.1"
+  },
   "optionalDependencies": {},
   "readmeFilename": "README.md",
   "engines": {
